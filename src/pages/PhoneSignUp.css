@@ -1,0 +1,49 @@
+.phone-signup{
+    width: 100%;
+    height: 100vh;
+    background-color: #0f5694;
+    padding-top: 75px;
+
+}
+.signup-form{
+  border-radius: 20px;
+    width: 450px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(6, 4, 13);
+ padding:20px 100px;
+}
+.signup-form h1,.questext{
+    color: white;
+    text-align: center;
+}
+.signup-form .questext{
+    margin-top: 20px;
+}
+.form input{
+    
+    background-color: rgb(209, 226, 225);
+    border-style: none;
+    border: 1px solid grey;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 20px;
+    padding: 20px  10px;
+    border-radius: 2px;
+    color: rgb(8, 6, 6);
+    outline: #1777b3;
+}
+.form input:focus{
+   border-color: #1DA1F2;
+}
+@media only screen and (max-width: 550px) {
+    .phone-signup{
+        background-color: black;
+    }
+    .signup-form{
+        width: 100%;
+        padding: 50px;
+    }
+  }
